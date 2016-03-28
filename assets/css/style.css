@@ -33,6 +33,32 @@
 	min-height: 190px;
 }
 
+.bg-3{
+	background-color: #bdc3c7;
+	margin-top: -30px;
+	min-height: 650px;
+}
+.bg-4{
+	background-color: #3498db;
+	margin-top: -30px;
+	min-height: 580px;
+}
+.bg-footer{
+	background-color: #34495e;
+	margin-top: -30px;
+	height: 50px;
+	text-align: center;
+	color:white;
+	
+
+}
+
+
+
+
+.portofolio2{
+	margin-top: 300px;
+}
 
 
 .navbar .navbar-brand a{
@@ -44,6 +70,8 @@
 .navbar .navbar-header{
 	margin-top:-30px;
 }
+
+
 .nav a{
 	color: white;
 	text-decoration: none;
@@ -93,23 +121,37 @@
 
 }
 
+.thumbnail{
+	background-color: transparent;
+	border: none;
+	position: absolute;	
+	text-align: center;
 
-/*efek mengetik*/
-.mengetik
-{
-	font-size: 22px;
-	width: 800px;
-	white-space:nowrap;
-	overflow:hidden;
-	-webkit-animation: ketik 5s steps(100, end);
-	animation: ketik 5s steps(100, end);
 }
 
-@keyframes ketik{
-		from { width: 0; }
+.thumbnail img{
+	width: 500px;
+	height: 180px;
 }
 
-@-webkit-keyframes ketik{
-		from { width: 0; }
+.thumbnail p{
+	margin-top: 10px;
+}
+
+
+
+.sosmed{
+	color: #ecf0f1;
+}
+
+.find{
+	color:white;
+}
+
+.bg-sosmed,.bg-message{
+	width: 100%;
+	min-height: 450px;
+	border-radius: 30px;
+	background-color: rgba(189, 195, 199,0.3);
 }
 
